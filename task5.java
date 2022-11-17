@@ -11,7 +11,7 @@ import java.util.Arrays;
             if (arr[i] == 1) arr[i] = 0;
             else arr[i] = 1;
         }
-        System.out.println("Task 1:");
+
         for (int i = 0; i < arrll; i++) {
             System.out.println( arr[i]);
         }
