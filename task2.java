@@ -12,13 +12,8 @@ public class program {
         int a = in.nextInt();
         System.out.print("Input b number: ");
         int b = in.nextInt();
-        int sum = a+b;
-        if (sum>9 && sum<21) {
-            System.out.println("true");
-                    } else{
-                        System.out.println("false");
-                    }
-        System.out.printf("Your sum: %d \n", sum);
+        boolean sum = a+b>9 && a+b <21;
+        System.out.println(sum);
         in.close();
     }
 }
